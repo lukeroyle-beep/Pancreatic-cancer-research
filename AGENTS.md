@@ -1,0 +1,3 @@
+# Research standards
+
+Work on branches and submit pull requests. Record hypotheses, source identifiers, dataset versions, checksums, environment, seeds, commands and negative results. Preregister primary endpoints and exclusions before analysis. Prevent leakage across cell lines and cohorts; adjust for multiple testing and confounding; report effect sizes and uncertainty. Independently reproduce results with held-out evidence where feasible. Distinguish computational prediction, experimental validation and clinical evidence. Never fabricate data or claim therapeutic efficacy. Require human scientific review before publication.

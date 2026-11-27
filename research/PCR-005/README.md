@@ -1,0 +1,5 @@
+# RNA inverse folding methods
+
+Source: Boury et al. (2025), https://doi.org/10.1186/s13015-025-00278-6 (article CC BY 4.0). Corollaries 1–2 establish linear-time/space inverse folding for minimum helix length three in the base-pair maximization model, with forbidden motifs excluded for designability. Figure 15 reports 10%, 35%, 43% positive energy-distance outcomes for compatible, separated and relaxed seeds on 1,000 synthetic targets under Turner99; this is not clinical evidence. Future work includes stacking-energy separability and more realistic energy models.
+
+Audit existing project code, tests, proofs and benchmarks at a pinned revision before reuse; source repository not yet identified. Verify licenses separately, including upstream https://gitlab.inria.fr/amibio/linearbpdesign. Prefer references or independently implemented methods over duplication. Benchmark on nonclinical public or synthetic structures; compare runtime, structural accuracy and ensemble metrics. Keep mathematical guarantees separate from empirical predictions. Pancreatic cancer relevance requires independent biological rationale and specialist review.
