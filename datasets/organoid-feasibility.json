@@ -1,0 +1,41 @@
+{
+  "broad_quality_passing_PAAD_with_expression": {
+    "2DS": {
+      "models": 44,
+      "screens": 60
+    },
+    "3DO": {
+      "models": 23,
+      "screens": 23
+    }
+  },
+  "published_paralog_row": {
+    "Biomarker": "CDS1 (1040)",
+    "BiomarkerVariance": "3.150122608",
+    "Dependency": "CDS2 (8760)",
+    "NextGenDepClass": "Strongly Selective",
+    "NextGenN": "146",
+    "NextGenPValue": "2.79E-17",
+    "NextGenPearsonR": "0.62635864",
+    "TraditionalPearsonR": "0.584123318"
+  },
+  "published_program_row": {
+    "Biomarker": "PDAC-classical",
+    "Dependency": "CDS2 (8760)",
+    "OrganoidDepClass": "Strongly Selective",
+    "OrganoidN": "108",
+    "OrganoidPValue": "0.756161352",
+    "OrganoidPearsonR": "-0.03022521",
+    "WntSignaling": "FALSE"
+  },
+  "sanger_paired_broad_overlap_annotation": {
+    "No": 4
+  },
+  "sanger_paired_donors": 4,
+  "sanger_paired_models": 4,
+  "sanger_paired_morphology": {
+    "8140/3 Adenocarcinoma": 3,
+    "8500/3 Infiltrating duct carcinoma": 1
+  },
+  "sanger_pancreatic_models": 22
+}

@@ -1,0 +1,9 @@
+{
+  "started_utc": "2026-11-27T14:44:28.468314+00:00",
+  "finished_utc": "2026-11-27T14:44:55.917288+00:00",
+  "python": "3.12.14",
+  "date_cutoff": "2026-11-27",
+  "source_id_union": 116,
+  "pubmed_endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "europepmc_endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+}

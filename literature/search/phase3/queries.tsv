@@ -1,0 +1,3 @@
+index	hits	sorted_id_sha256	query
+pubmed	225	0bd2ebfb4f1f38ff44ffd487c5056bedb4051b3f8d419ce927d5f55f15f9ebec	"((""pancreatic ductal adenocarcinoma""[tiab] OR ""pancreatic adenocarcinoma""[tiab] OR ""pancreatic cancer""[tiab] OR PDAC[tiab]) AND ""clinical trial, phase iii""[pt] AND (""1900/01/01""[dp] : ""2026/11/27""[dp]))"
+europepmc	223	729e01f022fad782aaaba3934e9961c8bd45a63e797a0c654959d68e9e82734a	"((TITLE_ABS:""pancreatic ductal adenocarcinoma"" OR TITLE_ABS:""pancreatic adenocarcinoma"" OR TITLE_ABS:""pancreatic cancer"" OR TITLE_ABS:PDAC) AND PUB_TYPE:""clinical trial, phase iii"" AND FIRST_PDATE:[1900-01-01 TO 2026-11-27])"

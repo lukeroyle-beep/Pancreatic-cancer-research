@@ -1,0 +1,20 @@
+# Research opportunity ranking
+
+The 2 October 2026 HUGO Gene Nomenclature Committee table confirms that none of the seven absent genes can be recovered by an approved, previous or alias symbol in the external expression matrix. The exact 130-gene test is blocked with that input. First seek a permitted complete matrix for the same models and reproduce the original score in development data. Any 123-gene adaptation needs explicit owner approval and a separately locked estimand. [Input verification](../../datasets/pharmacotyping.md).
+
+**Recommendation, 27 November 2026.** Assign blinded reconstruction of the published gemcitabine score and reproduction in the original cohort first. The [external join](../../datasets/pharmacotyping.md) already yields 38 ductal organoids with expression and single-agent response. Under idealised assumptions this sample detects a true rank correlation of 0.30 only about 44% of the time. [Planning calculation](../../datasets/precision.md). Run the archived RNA benchmark replication in parallel. Close the proposed confirmatory CDS1–CDS2 study with the two named organoid archives unless new independent material is identified.
+
+These are the coordinator's qualitative judgements, not estimated probabilities. Each dimension runs from 1 (poor or contradicted) to 5 (strong). The weighted score uses 30% clinical relevance, 25% originality, 20% computational feasibility, 15% data quality for the specific endpoint and 10% independent verifiability. Use the values for ordering work, not to override a failed gate. Proposed points of originality require further challenge.
+
+| Candidate | Clinical | Original | Feasible | Data | Verifiable | Weighted / 5 | Decision |
+|---|---:|---:|---:|---:|---:|---:|---|
+| A. Fixed gemcitabine organoid score across laboratories | 4 | 3 | 3 | 3 | 4 | 3.40 | First data/novelty audit. A single model-level measurement and a prespecified external endpoint make a yes, no or inconclusive answer possible. |
+| F. Published RNA folding benchmark, paired targets and duplicate-aware uncertainty | 1 | 2 | 5 | 4 | 5 | 2.90 | Run a methods replication in parallel. Source and design are unusually auditable. No direct PDAC evidence. |
+| C. Published inhibitor-specific resistance marker in a second exposed cohort | 5 | 2 | 2 | 2 | 2 | 2.90 | Audit availability before selecting a marker. More clinically proximate, but comparable independent progression samples are unverified. |
+| D. Cellular origin of a fixed stromal or immune marker | 3 | 2 | 2 | 3 | 3 | 2.55 | Consider a composition-bias audit. Relevant pathology/protein data exist, comparative treatment endpoints do not follow. |
+| B. PDAC organoid CDS1–CDS2 confirmation in Broad and Sanger | 4 | 1 | 1 | 2 | 2 | 2.15 | Hold. Already studied in multiple settings, four external pancreatic donors at most and one explicitly ductal. |
+| E. Repurposing or combination cross-screen comparison | 3 | 1 | 2 | 2 | 2 | 2.05 | Defer. Single-agent tables cannot establish a drug interaction and no paired combination grid is qualified. |
+
+**Sensitivity of these judgements.** F and C tie on the declared weights. F can start because the archived file and independent units can be inspected now. If A loses both its proposed originality and its compatible response endpoint, its score falls to 2.50 after reducing originality and feasibility from 3 to 1; retire or relabel it as a reproduction. If no score can be applied out of sample without learning from validation outcomes, stop even if other dimensions score well. Clinical relevance alone does not open an analysis gate.
+
+The [gap register](gaps.md) supplies the evidence and experimental requirements for each row. The [clinical evidence](../../literature/clinical.md), [dependency evidence](../../literature/dependencies.md), [access inventory](../../datasets/inventory.md), [measured ceiling](../../datasets/feasibility.md) and [RNA benchmark audit](../PCR-005/audit.md) provide the inputs. An independent reviewer should challenge the proposed weights, cohort independence and exact prior-art match before the owner adopts this ordering.

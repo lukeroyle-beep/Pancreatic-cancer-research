@@ -1,0 +1,278 @@
+{
+  "research_record": "PCR-005 proof reproduction",
+  "date": "2026-11-27",
+  "upstream_repository": "https://github.com/lukeroyle-beep/Bioinformatics",
+  "upstream_commit": "512777e4b72a412e80af1dc1f6ea40bb820e3522",
+  "tracked_files_after_build": "unchanged",
+  "toolchain": {
+    "upstream_release": "https://github.com/leanprover/lean4/releases/tag/v4.19.0",
+    "asset": "lean-4.19.0-linux.tar.zst",
+    "bytes": 343842845,
+    "sha256_measured": "6fe3ce97a58f44e2b3567d455b994eacec5bfe9ae7774f2a573444480ba813fe",
+    "publisher_digest": null,
+    "lean": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)",
+    "lake": "Lake version 5.0.0-6caaee8 (Lean version 4.19.0)",
+    "python": "3.12.14"
+  },
+  "stage2": {
+    "status": "PASS",
+    "started_utc": "2026-11-27T14:40:19.290405+00:00",
+    "finished_utc": "2026-11-27T14:40:34.035749+00:00",
+    "theorem_count": 20,
+    "transitive_axiom_union": [
+      "Quot.sound",
+      "propext"
+    ],
+    "source_digests_match_archive": true,
+    "individual_theorem_axioms_match_archive": true,
+    "compared_to_upstream_record": "results/stage2_verification/lean_build.json",
+    "source_sha256": "b8d804c0600e276039c6667820cae44dd83b3e88e3958660971a63d8495c2c01",
+    "commands": [
+      {
+        "command": [
+          "lean",
+          "--version"
+        ],
+        "exit_code": 0,
+        "output_log": "lean_version.log",
+        "output_sha256": "5362a246ce2545424db10a77de8fd4694f4cf8b0170dfd43fa727acf7f7f259b"
+      },
+      {
+        "command": [
+          "lake",
+          "--version"
+        ],
+        "exit_code": 0,
+        "output_log": "lake_version.log",
+        "output_sha256": "dc1f8f58960933047871f7df82c5de73ea0f705617e101b7dd9413a418a2195d"
+      },
+      {
+        "command": [
+          "lake",
+          "clean"
+        ],
+        "exit_code": 0,
+        "output_log": "lean_clean.log",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "command": [
+          "lake",
+          "build"
+        ],
+        "exit_code": 0,
+        "output_log": "lean_build.log",
+        "output_sha256": "b9cddb506ab9e88ef08fa5f3fd7736b10410379f3cdaf8d92be455a312dbdede"
+      },
+      {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "Pilot.lean"
+        ],
+        "exit_code": 0,
+        "output_log": "lean_axioms.log",
+        "output_sha256": "48a54c8a31e173c0b4f9661f4462af4f9fa965246810cefc6c622aaf3a87b27b"
+      }
+    ],
+    "checked_pilot_declaration": {
+      "Stage2.unique_minimum_all_admissible_folds": [
+        "propext",
+        "Quot.sound"
+      ]
+    }
+  },
+  "stage4": {
+    "status": "PASS",
+    "started_utc": "2026-11-27T14:40:10.412801+00:00",
+    "finished_utc": "2026-11-27T14:42:04.783782+00:00",
+    "theorem_count": 100,
+    "transitive_axiom_union": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "source_digests_match_archive": true,
+    "individual_theorem_axioms_match_archive": true,
+    "compared_to_upstream_record": "results/stage4/github_publication_20261011/verification/verification.json",
+    "source_sha256": {
+      "lean/Stage4/Bounds.lean": "58f80284b781dff94540d1def03a5d4869541bed0a59d1ff1f8156167ba1f9e7",
+      "lean/Stage4/Classification.lean": "6f107f00686bcc23ed099ca66f4092714e3b7218998d09e0354d113d80fa8b32",
+      "lean/Stage4/CountAlgebra.lean": "539e5aaec498d7d2ebd41e47c64a59ed7d55ac37dbe73ec7d9959de9ecc1666c",
+      "lean/Stage4/Counts.lean": "f63e1c08a351917b306df9ad3e59e2f1bd093d0694046c86212d38e39a534da3",
+      "lean/Stage4/Energy.lean": "7b6132e4684b230eeabc1bbc8dca170a52105ad8fe85ae7510f307228df646a8",
+      "lean/Stage4/Final.lean": "3faba712c05e22dbf6a0bdaa0fd07df704724ba7b33b2583cb522b86871e5bb1",
+      "lean/Stage4/Gap.lean": "5b265a3c470f7e46a64f0ce8c6c95eb86d57ad6741b35b7356d28ea62017832b",
+      "lean/Stage4/Model.lean": "f72d0bdfc6d2da7c0ee381b2e87fad253eb9ddc88220f970be734fe3eec2e922",
+      "lean/Stage4/Reconstruction.lean": "93dbe4efc047dd6cd864dd29848ebbbf0b37e28517eab7d9ccb6053c4fbeeae7",
+      "lean/Stage4/TargetEnergy.lean": "78d3fb34bc45fe3002e841af194ccfeab871d2abe72df6f58a9a0d1658c08077"
+    },
+    "commands": [
+      {
+        "command": [
+          "lean",
+          "--version"
+        ],
+        "exit_code": 0,
+        "output_log": "lean_version.log",
+        "output_sha256": "5362a246ce2545424db10a77de8fd4694f4cf8b0170dfd43fa727acf7f7f259b"
+      },
+      {
+        "command": [
+          "lake",
+          "--version"
+        ],
+        "exit_code": 0,
+        "output_log": "lake_version.log",
+        "output_sha256": "dc1f8f58960933047871f7df82c5de73ea0f705617e101b7dd9413a418a2195d"
+      },
+      {
+        "command": [
+          "lake",
+          "clean"
+        ],
+        "exit_code": 0,
+        "output_log": "clean.log",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "command": [
+          "lake",
+          "build"
+        ],
+        "exit_code": 0,
+        "output_log": "build.log",
+        "output_sha256": "f9e871e4097cb4fc8bd530a98a012f23253c92844d6a4e4c0478337d90552335"
+      },
+      {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "Bounds.lean"
+        ],
+        "exit_code": 0,
+        "output_log": "Bounds_axioms.log",
+        "output_sha256": "64745dcf264162970d687f1b21aa4112240b4ef26aa3afbf5a89ec003976d140"
+      },
+      {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "Classification.lean"
+        ],
+        "exit_code": 0,
+        "output_log": "Classification_axioms.log",
+        "output_sha256": "0b04733e619e0a966d44e9778503f5fb5c6e1b83cc360fa1853524515db9b39e"
+      },
+      {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "CountAlgebra.lean"
+        ],
+        "exit_code": 0,
+        "output_log": "CountAlgebra_axioms.log",
+        "output_sha256": "922b178a317f830869d15fb87cc90bf00804b225eb1cf33993d808a1bfb61658"
+      },
+      {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "Counts.lean"
+        ],
+        "exit_code": 0,
+        "output_log": "Counts_axioms.log",
+        "output_sha256": "c1727b11ec915b56180553e12c5dcdf5a4d52b925b2021992aec7b7b203798af"
+      },
+      {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "Energy.lean"
+        ],
+        "exit_code": 0,
+        "output_log": "Energy_axioms.log",
+        "output_sha256": "90dd720ffe439d0418d3304839b41cf77bc016c5ed5b1d59ce6b0dbe7f6f68f4"
+      },
+      {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "Final.lean"
+        ],
+        "exit_code": 0,
+        "output_log": "Final_axioms.log",
+        "output_sha256": "b43ba76e3e07e1d88a99e2b37cb556844ca40bd77b99e730314f6ec0b1d703cf"
+      },
+      {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "Gap.lean"
+        ],
+        "exit_code": 0,
+        "output_log": "Gap_axioms.log",
+        "output_sha256": "5d3e8854af94f8c1ac55264789301ea14851e8cfd7df329fde8fabff9acfee4c"
+      },
+      {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "Model.lean"
+        ],
+        "exit_code": 0,
+        "output_log": "Model_axioms.log",
+        "output_sha256": "99d542040d1333e1a85bbde39f4a027d4bf7f2ad624f95d131773d57fd34741e"
+      },
+      {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "Reconstruction.lean"
+        ],
+        "exit_code": 0,
+        "output_log": "Reconstruction_axioms.log",
+        "output_sha256": "2b5daf4d46837ab450440dad60b27f475ef9d177783b60a827adfcf6a84e6d06"
+      },
+      {
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "TargetEnergy.lean"
+        ],
+        "exit_code": 0,
+        "output_log": "TargetEnergy_axioms.log",
+        "output_sha256": "f6981aefc4ade5882ae4426adce56a22a2c409e88c056997c2b2629b57224b48"
+      }
+    ],
+    "checked_final_declarations": {
+      "Stage4.unique_minimum": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Stage4.gap_lower_bound": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Stage4.exact_gap": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  },
+  "interpretation": "Fresh proof compilation and axiom comparison for the fixed mathematical model. The models' empirical folding accuracy, novelty and therapeutic transfer were not tested."
+}
