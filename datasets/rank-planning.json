@@ -1,0 +1,105 @@
+{
+  "seed": 20261127,
+  "draws_per_scenario": 40000,
+  "scenarios": [
+    {
+      "donors": 20,
+      "assumed_spearman": 0,
+      "simulated_estimate_2.5_and_97.5_percentiles": [
+        -0.4481,
+        0.4481
+      ],
+      "empirical_two_sided_rejection_probability": 0.0521,
+      "monte_carlo_standard_error_given_threshold": 0.0011,
+      "critical_absolute_rho_strictly_exceeded": 0.443609
+    },
+    {
+      "donors": 20,
+      "assumed_spearman": 0.3,
+      "simulated_estimate_2.5_and_97.5_percentiles": [
+        -0.1549,
+        0.6647
+      ],
+      "empirical_two_sided_rejection_probability": 0.2392,
+      "monte_carlo_standard_error_given_threshold": 0.0021,
+      "critical_absolute_rho_strictly_exceeded": 0.443609
+    },
+    {
+      "donors": 20,
+      "assumed_spearman": 0.5,
+      "simulated_estimate_2.5_and_97.5_percentiles": [
+        0.0752,
+        0.785
+      ],
+      "empirical_two_sided_rejection_probability": 0.6086,
+      "monte_carlo_standard_error_given_threshold": 0.0024,
+      "critical_absolute_rho_strictly_exceeded": 0.443609
+    },
+    {
+      "donors": 30,
+      "assumed_spearman": 0,
+      "simulated_estimate_2.5_and_97.5_percentiles": [
+        -0.3597,
+        0.3637
+      ],
+      "empirical_two_sided_rejection_probability": 0.05,
+      "monte_carlo_standard_error_given_threshold": 0.0011,
+      "critical_absolute_rho_strictly_exceeded": 0.361513
+    },
+    {
+      "donors": 30,
+      "assumed_spearman": 0.3,
+      "simulated_estimate_2.5_and_97.5_percentiles": [
+        -0.0679,
+        0.6049
+      ],
+      "empirical_two_sided_rejection_probability": 0.3551,
+      "monte_carlo_standard_error_given_threshold": 0.0024,
+      "critical_absolute_rho_strictly_exceeded": 0.361513
+    },
+    {
+      "donors": 30,
+      "assumed_spearman": 0.5,
+      "simulated_estimate_2.5_and_97.5_percentiles": [
+        0.1706,
+        0.7379
+      ],
+      "empirical_two_sided_rejection_probability": 0.8049,
+      "monte_carlo_standard_error_given_threshold": 0.002,
+      "critical_absolute_rho_strictly_exceeded": 0.361513
+    },
+    {
+      "donors": 38,
+      "assumed_spearman": 0,
+      "simulated_estimate_2.5_and_97.5_percentiles": [
+        -0.3181,
+        0.3198
+      ],
+      "empirical_two_sided_rejection_probability": 0.0487,
+      "monte_carlo_standard_error_given_threshold": 0.0011,
+      "critical_absolute_rho_strictly_exceeded": 0.320932
+    },
+    {
+      "donors": 38,
+      "assumed_spearman": 0.3,
+      "simulated_estimate_2.5_and_97.5_percentiles": [
+        -0.0222,
+        0.5709
+      ],
+      "empirical_two_sided_rejection_probability": 0.4431,
+      "monte_carlo_standard_error_given_threshold": 0.0025,
+      "critical_absolute_rho_strictly_exceeded": 0.320932
+    },
+    {
+      "donors": 38,
+      "assumed_spearman": 0.5,
+      "simulated_estimate_2.5_and_97.5_percentiles": [
+        0.2111,
+        0.7164
+      ],
+      "empirical_two_sided_rejection_probability": 0.8954,
+      "monte_carlo_standard_error_given_threshold": 0.0015,
+      "critical_absolute_rho_strictly_exceeded": 0.320932
+    }
+  ]
+}
